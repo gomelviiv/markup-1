@@ -1,9 +1,9 @@
-.main-content {
-    position: relative;
-    width: 1600px;
-    margin: 0 auto;
+body {
+    font-family: "Calibri", sans-serif;
 }
+
 /*--------------------------------HEADER CONTENT-------------------------------*/
+
 header {
     position: absolute;
     width: 1600px;
@@ -13,39 +13,112 @@ header {
     background-repeat: no-repeat;
 }
 
-.logo-menu{
+.logo-menu {
     margin-top: 36px;
     margin-left: 160px;
     width: 156px;
     height: 26px;
     color: #ffffff;
-    font-family: "Yeseva One";
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
     float: left;
 }
+
 .header-menu {
-    margin-top: 46px;
     margin-left: 480px;
-    width: 900px;
+    max-width: 880px;
+    max-height: 120px;
+    overflow: hidden;
 }
 
-.header-menu > ul{
+.header-menu > ul {
     list-style: none;
 }
+
 .header-menu > ul > li {
-    margin-left: 50px;
-    display: inline;
+    margin-top: 28px;
+    margin-left: 55px;
+    display: inline-block;
+    max-width: 100%;
+
 }
-.header-menu > ul > li > a{
-    font-family: "Yeseva One";
+
+.header-menu > ul > li > a {
+    padding-top: 42px;
+    font-family: "Gentium Book Basic";
     color: white;
     font-size: 21px;
     font-weight: 700;
     text-decoration: none;
+
 }
+
+/*header-menu > ul > li > */
+.li-menu-top-1:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 3.3%;
+    background-color: white;
+}
+
+.li-menu-top-2:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 3.3%;
+    background-color: white;
+}
+
+.li-menu-top-3:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 5.9%;
+    background-color: white;
+}
+
+.li-menu-top-4:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 3.2%;
+    background-color: white;
+}
+
+.li-menu-top-5:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 4.5%;
+    background-color: white;
+}
+
+.li-menu-top-6:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 7.1%;
+    background-color: white;
+}
+
 /*--------------------------------MAIN CONTENT-------------------------------*/
+
+/*-----section-promo-----*/
+
+.main-content {
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+}
+
 .section-promo {
     background-image: url("../images/bg(section-promo).png");
     height: 750px;
@@ -55,18 +128,25 @@ header {
     position: relative;
     top: 239px;
     left: 322px;
-    width: 956px;
+    width: 960px;
     text-align: center;
 }
 
-.section-promo-content-text{
+.section-promo-content-label {
     opacity: 0.92;
     text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
     color: #ffffff;
     font-family: "Yeseva One";
     font-size: 90px;
-    font-weight: 400;
+    font-weight: 100;
+    max-height: 300px;
+    overflow: hidden;
 }
+
+.section-promo-content-label > label {
+
+}
+
 .section-promo-content-img {
     margin-top: 34px;
 }
@@ -81,38 +161,69 @@ header {
     border: 1px solid #000000;
     background-color: #000000;
     opacity: 0.4;
+    z-index: 2;
 }
 
-.promo-content-buttons-text-one{
+.content-buttons-book-a-table:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.section-promo-border-button-one{
+    position: absolute;
+    width: 227px;
+    height: 55px;
+    border: 1px black solid;
+    z-index: 1;
+}
+
+.section-promo-border-button-two{
+    position: absolute;
+    margin-left: 30px;
+    width: 227px;
+    height: 55px;
+    border: 1px #f2f0ee solid;
+    z-index: 1;
+}
+
+.promo-content-buttons-text-one {
     position: absolute;
     margin-top: 18px;
     margin-left: 50px;
-    z-index: 1;
-    height: 13px;
+    z-index: 3;
+    max-width: 150px;
+    max-height: 22px;
+    overflow: hidden;
     color: #ffffff;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .promo-content-buttons-text-two {
     position: absolute;
     margin-top: 18px;
     margin-left: 80px;
-    z-index: 1;
-    height: 13px;
+    z-index: 3;
+    max-width: 150px;
+    max-height: 22px;
     color: #ffffff;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-
+    overflow: hidden;
 }
+
 .link {
     text-decoration: none;
-    color: white
+    color: white;
+    overflow: hidden;
 }
-.content-buttons-see-thee-menu{
+
+.content-buttons-see-thee-menu {
+    z-index: 2;
     width: 228px;
     height: 57px;
     border: 1px solid #ffffff;
@@ -121,21 +232,250 @@ header {
     margin-left: 30px;
 }
 
+.content-buttons-see-thee-menu:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*-----section-about-----*/
 
 .section-about {
-   background-image: url("../images/bg(section-about).png");
+    background-image: url("../images/bg(section-about).png");
     height: 710px;
-
 }
+
+.section-about-content {
+    width: 1200px;
+    position: relative;
+    top: 107px;
+    left: 294px;
+}
+
+.section-about-content-left {
+    float: left;
+}
+
+.section-about-content-label {
+    text-align: center;
+    margin-left: 33.5px;
+    max-width: 362px;
+    height: 37px;
+    overflow: hidden;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.section-about-content-label > label {
+    max-width: 342px;
+    max-height: 35px;
+}
+
+.section-about-content-img {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section-about-content-main-text {
+    margin-top: 32px;
+    text-align: center;
+    width: 409px;
+    max-height: 121px;
+    color: #4c4c4c;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-about-content-img-before-text {
+    margin-top: 52px;
+    margin-left: 131px;
+    width: 219px;
+    height: 221px;
+}
+
+.section-about-content-img-right-text {
+    margin-top: 60px;
+    float: left;
+    margin-left: 350px;
+    width: 621px;
+    height: 625px;
+}
+
+/*-----section-ingredient-----*/
 
 .section-ingredient {
     background-image: url("../images/bg(section-ingredient).png");
     height: 758px;
 }
 
+.section-ingredient-content {
+    position: relative;
+    top: 100px;
+    left: 815px;
+    width: 570px;
+    height: 557px;
+}
+
+.section-ingredient-opacity {
+    position: absolute;
+    background: black;
+    width: 570px;
+    height: 557px;
+    opacity: 0.67;
+}
+
+.section-ingredient-content-label {
+    margin-top: 83px;
+    margin-left: 140px;
+    max-width: 297px;
+    max-height: 42px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.section-ingredient-container {
+    position: absolute;
+}
+
+.section-ingredient-content-img {
+    margin-top: 16px;
+    margin-left: 162px;
+    width: 247px;
+    height: 24px;
+}
+
+.section-ingredient-content-main-text {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 409px;
+    height: 111px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-ingredient-content-images {
+    margin-top: 45px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.section-ingredient-content-images > img {
+    width: 100px;
+}
+
+.section-ingredient-content-round-image-two {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*-----section-menu-----*/
+
 .section-menu {
     background-image: url("../images/bg(section-menu).png");
     height: 994px;
+}
+
+.section-menu-content {
+    /*border: 1px red solid;*/
+    position: relative;
+    left: 283px;
+    top: 107px;
+    width: 1032px;
+    height: 600px;
+
+}
+
+.section-menu-content-top-left-block {
+    width: 431px;
+}
+
+.section-menu-content-top-left-label-span {
+    max-width: 431px;
+    padding-top: 5px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-menu-after-img {
+    margin-top: 30px;
+}
+
+.section-menu-after-img-one {
+    margin-top: 15px;
+}
+
+.section-menu-after-img-two {
+    margin-top: 15px;
+}
+
+
+
+.section-menu-content-img {
+    margin-left: 92px;
+    margin-top: 22px;
+    width: 247px;
+    height: 24px;
+}
+
+.section-menu-in-content-left-top-span-one {
+    right: 0;
+    width:220px;
+    height: 25px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    float: left;
+}
+
+.section-menu-in-content-left-top-span-two {
+    position: relative;
+    right: 0;
+    left:150px;
+    max-width: 78px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+
+.section-menu-content-hr {
+    text-align: center;
+    width: 430px;
+    height: 1px;
+    opacity: 0.3;
+    border: 1px #c89f2d;
+    background: #c89f2d
+}
+
+
+.section-menu-content-text-after-hr {
+    max-width: 431px;
+    height: 60px;
+    overflow: hidden;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .section-background {
