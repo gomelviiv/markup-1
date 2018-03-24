@@ -119,10 +119,12 @@ header {
 
 .header-menu-socseti > a{
     margin-left: 10px;
-
+    filter: none;
 }
 
-
+.header-menu-socseti > a:hover {
+    filter: grayscale(100%);
+}
 
 
 
@@ -565,7 +567,6 @@ header {
     width:220px;
     height: 25px;
     overflow: hidden;
-    margin-left: ;
     color: #c89f2d;
     font-family: "Yeseva One";
     font-size: 21px;
@@ -887,7 +888,7 @@ header {
 .section-reviews-content-label{
     margin-left: 37px;
     max-width: 352px;
-    height: 35px;
+    height: 40px;
     overflow: hidden;
     color: #cc9900;
     font-family: "Yeseva One";
@@ -971,6 +972,12 @@ header {
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
+}
+.section-reviews-form-book-now:hover {
+    background: #e2b53a;
+}
+.section-reviews-form-book-now:active {
+    background: #846321;
 }
 .section-reviews-form > div {
     margin-top: 20px;
