@@ -46,7 +46,7 @@ header {
 
 .header-menu > ul > li > a {
     padding-top: 42px;
-    font-family: "Gentium Book Basic";
+    font-family: "Gentium Book Basic",sans-serif;
     color: white;
     font-size: 21px;
     font-weight: 700;
@@ -54,7 +54,6 @@ header {
 
 }
 
-/*header-menu > ul > li > */
 .li-menu-top-1:hover::before {
     content: "";
     position: absolute;
@@ -109,7 +108,27 @@ header {
     background-color: white;
 }
 
+.header-menu-socseti{
+    max-width: 100px;
+    height: 47px;
+    overflow: hidden;
+    position: relative;
+    top: -40px;
+    left: 1330px;
+}
+
+.header-menu-socseti > a{
+    margin-left: 10px;
+
+}
+
+
+
+
+
 /*--------------------------------MAIN CONTENT-------------------------------*/
+
+
 
 /*-----section-promo-----*/
 
@@ -121,7 +140,10 @@ header {
 
 .section-promo {
     background-image: url("../images/bg(section-promo).png");
-    height: 750px;
+    padding-bottom: 364px;
+    background-size: 100%;
+    margin-bottom: 0;
+
 }
 
 .section-promo-content {
@@ -136,7 +158,7 @@ header {
     opacity: 0.92;
     text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
     color: #ffffff;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One",sans-serif;
     font-size: 90px;
     font-weight: 100;
     max-height: 300px;
@@ -155,71 +177,75 @@ header {
     margin-top: 34px;
 }
 
-.content-buttons-book-a-table {
+.section-promo-content-buttons-fon-one {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 228px;
     height: 57px;
-    border: 1px solid #000000;
-    background-color: #000000;
-    opacity: 0.4;
-    z-index: 2;
+    z-index: 1;
+    background: black;
+    opacity: 0.5;
 }
 
-.content-buttons-book-a-table:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-.section-promo-border-button-one{
-    position: absolute;
-    width: 227px;
-    height: 55px;
+.section-promo-content-buttons-book-a-table{
+    position: relative;
+    z-index: 4;
+    width: 230px;
+    height: 59px;
+    background-color: transparent;
     border: 1px black solid;
-    z-index: 1;
+    cursor: pointer;
+    margin-right: 30px;
 }
-
-.section-promo-border-button-two{
+.section-promo-content-buttons-label-one{
     position: absolute;
-    margin-left: 30px;
-    width: 227px;
-    height: 55px;
-    border: 1px #f2f0ee solid;
-    z-index: 1;
-}
-
-.promo-content-buttons-text-one {
-    position: absolute;
-    margin-top: 18px;
-    margin-left: 50px;
-    z-index: 3;
-    max-width: 150px;
-    max-height: 22px;
-    overflow: hidden;
+    top: 16px;
+    left: 50px;
+    z-index: 99999;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
 }
+.section-promo-content-buttons-book-a-table:hover{
+    background: black;
+}
 
-.promo-content-buttons-text-two {
+.section-promo-content-buttons-fon-two {
     position: absolute;
-    margin-top: 18px;
-    margin-left: 80px;
-    z-index: 3;
-    max-width: 150px;
-    max-height: 22px;
-    color: #ffffff;
-    font-family: "Lato";
+    left: 0;
+    top: 0;
+    width: 228px;
+    height: 57px;
+    z-index: 1;
+    background: #fffdfb;
+    opacity: 0.5;
+}
+
+.section-promo-content-buttons-see-the-menu{
+    position: relative;
+    z-index: 4;
+    width: 230px;
+    height: 59px;
+    background-color: transparent;
+    border: 1px #ffffff solid;
+    cursor: pointer;
+}
+.section-promo-content-buttons-label-two{
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    z-index: 99999;
+    color: #080808;
+    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    overflow: hidden;
 }
-
-.link {
-    text-decoration: none;
-    color: white;
-    overflow: hidden;
+.section-promo-content-buttons-see-the-menu:hover{
+    background: white;
 }
 
 .content-buttons-see-thee-menu {
@@ -232,16 +258,19 @@ header {
     margin-left: 30px;
 }
 
-.content-buttons-see-thee-menu:hover {
-    opacity: 0.7;
+.section-promo-border-button-two:hover {
     cursor: pointer;
+    opacity: 0.4;
+    background: white;
 }
 
 /*-----section-about-----*/
 
 .section-about {
     background-image: url("../images/bg(section-about).png");
-    height: 710px;
+    padding-bottom: 710px;
+    background-size: 100%;
+    margin-bottom: 0;
 }
 
 .section-about-content {
@@ -257,7 +286,7 @@ header {
 
 .section-about-content-label {
     text-align: center;
-    margin-left: 33.5px;
+    margin-left: 25px;
     max-width: 362px;
     height: 37px;
     overflow: hidden;
@@ -302,7 +331,7 @@ header {
 .section-about-content-img-right-text {
     margin-top: 60px;
     float: left;
-    margin-left: 350px;
+    margin-left: 380px;
     width: 621px;
     height: 625px;
 }
@@ -311,7 +340,9 @@ header {
 
 .section-ingredient {
     background-image: url("../images/bg(section-ingredient).png");
-    height: 758px;
+    padding-bottom: 200px;
+    background-size: 100%;
+    margin-bottom: 0;
 }
 
 .section-ingredient-content {
@@ -384,34 +415,31 @@ header {
 
 .section-menu {
     background-image: url("../images/bg(section-menu).png");
-    height: 994px;
+    padding-bottom: 170px;
+    background-size: 100%;
+    margin-bottom: 0;
 }
 
 .section-menu-content {
     /*border: 1px red solid;*/
     position: relative;
     left: 283px;
-    top: 107px;
+    top: 80px;
     width: 1032px;
-    height: 600px;
 
-}
-
-.section-menu-content-top-left-block {
-    width: 431px;
 }
 
 .section-menu-content-top-left-label-span {
     max-width: 431px;
     padding-top: 5px;
-    height: 35px;
+    height: 33px;
     overflow: hidden;
     text-align: center;
     color: #cc9900;
     font-family: "Yeseva One";
     font-size: 36px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 32px;
 }
 
 .section-menu-after-img {
@@ -443,20 +471,22 @@ header {
     color: #c89f2d;
     font-family: "Yeseva One";
     font-size: 21px;
-    float: left;
 }
 
 .section-menu-in-content-left-top-span-two {
     position: relative;
-    right: 0;
-    left:150px;
+    top: -24px;
+    left: 360px;
+    height: 30px;
     max-width: 78px;
     overflow: hidden;
     color: #c89f2d;
     font-family: "Yeseva One";
     font-size: 21px;
 }
-
+.section-menu-after-block {
+    margin-bottom: -25px;
+}
 
 .section-menu-content-hr {
     text-align: center;
@@ -470,7 +500,7 @@ header {
 
 .section-menu-content-text-after-hr {
     max-width: 431px;
-    height: 60px;
+    height: 30px;
     overflow: hidden;
     font-family: "Lato";
     font-size: 16px;
@@ -478,20 +508,613 @@ header {
     line-height: 24px;
 }
 
+.section-menu-content-top-right-label-span{
+    max-width: 431px;
+    padding-top: 5px;
+    height: 33px;
+    overflow: hidden;
+    text-align: center;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section-menu-in-content-right-top-span-one {
+    position: relative;
+    right: 0;
+    width:220px;
+    height: 25px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-in-content-right-top-span-two {
+    position: relative;
+    top: -24px;
+    left: 360px;
+    height: 30px;
+    max-width: 78px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-content-bottom-right-block {
+    margin-top: 40px;
+}
+
+.section-menu-content-bottom-right-label-span{
+    max-width: 431px;
+    padding-top: 5px;
+    height: 33px;
+    overflow: hidden;
+    text-align: center;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section-menu-in-content-right-bottom-span-one{
+    width:220px;
+    height: 25px;
+    overflow: hidden;
+    margin-left: ;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-in-content-right-bottom-span-two{
+    position: relative;
+    top: -24px;
+    left: 370px;
+    max-width: 78px;
+    height: 30px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-special-content {
+    position: relative;
+    left: -7px;
+    width: 440px;
+}
+
+.section-menu-special-small-label{
+    text-align: right;
+}
+
+.section-menu-special-small-label-right {
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 4px;
+    background-image: url("../images/other/bg-special(section-menu).png");
+    color: #f8fafa;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-menu-content-text-after-hr-right-bottom{
+    max-width: 431px;
+    height: 30px;
+    overflow: hidden;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-menu-in-content-right-bottom-special-border{
+    position: absolute;
+    border: 1px #c89f2d solid;
+    width:438px;
+    height: 94px;
+    opacity: 0.4;
+}
+.section-menu-special-content-main{
+    padding-top: 5px;
+    padding-left: 7px;
+    width: 431px;
+    height: 87px;
+}
+
+.section-menu-special-content-main-section-bottom {
+    margin-top: 35px;
+}
+
+
+
+.section-menu-in-content-right-bottom-special-span-one {
+    width:220px;
+    height: 25px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    float: left;
+}
+
+.section-menu-in-content-right-bottom-special-span-two {
+    position: relative;
+    right: 0;
+    left:144px;
+    height: 30px;
+    max-width: 78px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-content-bottom-left-block{
+    margin-top: 50px;
+}
+
+.section-menu-content-bottom-left-label-span{
+    max-width: 431px;
+    padding-top: 5px;
+    height: 33px;
+    overflow: hidden;
+    text-align: center;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section-menu-in-content-left-bottom-span-one {
+    width:220px;
+    height: 25px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-in-content-left-bottom-span-two{
+    position: relative;
+    top: -24px;
+    left: 360px;
+    height: 30px;
+    max-width: 78px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-content-text-after-hr-left-bottom{
+    max-width: 431px;
+    height: 30px;
+    overflow: hidden;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-menu-special-small-label-left{
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 4px;
+    background-image: url("../images/other/bg-special(section-menu).png");
+    color: #f8fafa;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-menu-in-content-left-bottom-special-border {
+    position: absolute;
+    border: 1px #c89f2d solid;
+    width:438px;
+    height: 94px;
+    opacity: 0.4;
+}
+
+.section-menu-in-content-left-bottom-special-span-one{
+    width:220px;
+    height: 25px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-in-content-left-bottom-special-span-two{
+    position: relative;
+    top: -24px;
+    left: 360px;
+    height: 30px;
+    max-width: 78px;
+    overflow: hidden;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+}
+
+.section-menu-content-main-content{
+    position: relative;
+    width: 1000px;
+}
+.section-menu-content-left-content{
+    float: left;
+    position: relative;
+    width: 431px;
+}
+.section-menu-content-right-content{
+    margin-left: 650px;
+    width: 431px;
+}
+
+
+
+
+/*----Section-Background------*/
+
+
+
+
 .section-background {
     background-image: url("../images/bg(section-background).png");
-    height: 758px;
+    padding-bottom: 190px;
+    background-size: 100%;
+    margin-bottom: 0;
 }
+
+.section-background-content {
+    position: relative;
+    top: 100px;
+    left: 415px;
+    width: 770px;
+    height: 557px;
+}
+
+.section-background-content-box-back{
+    width: 770px;
+    height: 557px;
+    position: absolute;
+    background: black;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.section-background-content-in-box{
+    position: relative;
+    z-index: 2;
+}
+
+.section-background-content-label{
+    position: relative;
+    top: 82px;
+    left: 205px;
+    text-align: center;
+    max-width: 360px;
+    height: 40px;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.section-background-content-img {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-background-content-main-text {
+    margin-left: 74px;
+    text-align: center;
+    max-width: 622px;
+    height: 267px;
+    overflow: hidden;
+    color: #dde0df;
+    font-family: "Gentium Book Basic";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.section-background-content-main-text > label > label {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-background-quotes {
+    position: absolute;
+    margin-left: 36px;
+ }
+
+
+
+/*------section-reviews--------*/
+
+
 
 .section-reviews {
     background-image: url("../images/bg(section-reviews).png");
-    height: 710px;
+    padding-bottom: 200px;
+    background-size: 100%;
+    margin-bottom: 0;
 }
 
+.section-reviews-content {
+    position: relative;
+    top: 100px;
+    left: 215px;
+    width: 1222px   ;
+}
+
+
+.section-reviews-content-img-one{
+    display: inline-block;
+    float: left;
+}
+
+.section-reviews-content-img-two{
+    margin-left: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+
+.section-reviews-content-box{
+    text-align: center;
+    display: inline-block;
+    margin-left: 277px;
+    width: 417px;
+    height: 300px;
+}
+
+.section-reviews-content-label{
+    margin-left: 37px;
+    max-width: 352px;
+    height: 35px;
+    overflow: hidden;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.section-reviews-content-img {
+    margin-top: 15px;
+}
+
+.section-reviews-content-main-text{
+    max-width: 417px;
+    height: 145px;
+    overflow: hidden;
+    color: #4c4c4c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-reviews-form {
+    text-align: left;
+    margin-top: 30px;
+    width: 417px;
+    height: 200px;
+}
+
+.section-reviews-form-field{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+.section-reviews-form-field > label {
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.section-reviews-form-input {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 10px;
+    border: 1px solid transparent;
+}
+.section-reviews-form-input:focus{
+    border: 1px #c9a131 solid;
+    outline: none;
+}
+.section-reviews-form-field-out{
+    display: inline-block;
+    width: 200px;
+    height: 36px;
+    margin-left: 110px;
+
+}
+.section-reviews-form > p > label{
+    margin-left: 20px;
+    max-width: 41px;
+    overflow: hidden;
+    height: 10px;
+    color: #c9a131;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-reviews-form-book-now{
+    width: 160px;
+    height: 36px;
+    border: 1px solid #c89f2d;
+    background-color: #c89f2d;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-reviews-form > div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*-----FOOTER-----*/
+
+
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-image: url("../images/bg(footer).png");
     width: 1600px;
-    height: 320px;
+    padding-bottom: 300px;
+    background-size: 100%;
+    margin-bottom: 0;
 }
+.section-footer{
+    height: 100%;
+
+}
+.section-footer-left-content{
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 229px;
+    width: 343px;
+    height: 209px;
+    float: left;
+
+}
+
+.section-footer-left-content-img{
+    margin-top: 21px;
+    text-align: center;
+}
+
+.section-footer-left-content-label{
+    margin-left: 121px;
+    text-align: center;
+    width: 101px;
+    height: 25px;
+    color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-footer-left-content-main-text {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-footer-left-content-main-text > label >label {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.section-footer-middle-content{
+    margin-top: 60px;
+    float: left;
+    margin-left: 129px;
+    text-align: center;
+    display: inline-block;
+    width: 220px;
+    height: 209px;
+}
+
+.section-footer-middle-content-img{
+    width: 199px;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.section-footer-middle-content-label{
+    margin-left: 30px;
+    text-align: center;
+    width: 160px;
+    height: 25px;
+    color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-footer-middle-content-main-text {
+    margin-left: 20px;
+    width: 195px;
+    height: 41px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-footer-middle-content-main-text > label > label{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.section-footer-right-content{
+    margin-top: 60px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 202px;
+    float: left;
+
+}
+
+.section-footer-right-content-img{
+    width: 199px;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.section-footer-right-content-label{
+    margin-left: 30px;
+    text-align: center;
+    width: 160px;
+    height: 25px;
+    color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-footer-right-content-main-text {
+    margin-left: 20px;
+    width: 200px;
+    height: 41px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db2d6d31-53d3-460b-9259-d9e344cf006d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/images/pattern@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/bg(section-reviews).png" afterPath="$PROJECT_DIR$/images/bg(section-reviews).png" />
       <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
@@ -19,21 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="46" column="107" lean-forward="false" selection-start-line="46" selection-start-column="107" selection-end-line="46" selection-end-column="107" />
+            <state relative-caret-position="332">
+              <caret line="312" column="113" lean-forward="false" selection-start-line="312" selection-start-column="60" selection-end-line="312" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="208" column="17" lean-forward="false" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
+            <state relative-caret-position="741">
+              <caret line="1120" column="0" lean-forward="true" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,36 +51,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section-promo-content-buttons</find>
-      <find>section-about-content-img-cook</find>
-      <find>section-promo-content-label</find>
-      <find>section-about-content-main-text</find>
-      <find>promo-content-buttons-text-two</find>
-      <find>section-ingredient</find>
-      <find>section-about-content-label</find>
-      <find>section-ingredient-content-label</find>
-      <find>section-about-content-img-before-text</find>
-      <find>section-about-content-img-right-text</find>
-      <find>h1</find>
-      <find>section-menu-content-img</find>
-      <find>section-ingredient-in-content-left-top-span-one</find>
-      <find>section-ingredient-in-content-left-top-span-two</find>
-      <find>section-menu-after-img</find>
-      <find>section-menu-content-hrsection-menu-content-hr</find>
-      <find>hrhr</find>
-      <find>hr</find>
-      <find>section-menu-content-hr-three</find>
-      <find>section-menu-content-hr-two</find>
-      <find>section-menu-content-hr</find>
-      <find>section-menu-in-content-left-top-span-two</find>
-      <find>section-menu-content-top-left-label-span</find>
-      <find>section-menu-content-top-left-block</find>
+      <find>section-footer</find>
+      <find>section-background-content-img</find>
+      <find>section-footer-content-main-text</find>
+      <find>section-footer-middle-content</find>
+      <find>soc</find>
+      <find>section-footer-left-content-main-text</find>
+      <find>footer</find>
+      <find>section-footer-middle-content-main-text</find>
+      <find>section-footer-left-content</find>
       <find>section-menu-content-text-after-hr</find>
-      <find>section-menu-after-img-one</find>
-      <find>section-menu-in-content-left-top-span-one</find>
-      <find>link</find>
-      <find>Title</find>
-      <find>promo-content-buttons-text-one</find>
+      <find>section-menu-content-top-right-label-span</find>
+      <find>section-menu-content-bottom-left-label-span</find>
+      <find>section-menu-content-top-left-label-span</find>
+      <find>section-menu-in-content-right-bottom-special-span-two</find>
+      <find>section-menu-in-content-right-top-span-two</find>
+      <find>section-menu-in-content-left-bottom-special-span-two</find>
+      <find>section-menu-in-content-left-bottom-span-two</find>
+      <find>section-menu-in-content-left-top-span-two</find>
+      <find>section-background-content-label</find>
+      <find>section-background-content-main-text</find>
+      <find>section-reviews-content-label</find>
+      <find>section-reviews-content-main-text</find>
+      <find>section-menu-content-bottom-right-label-span</find>
+      <find>section-reviews-form-field</find>
+      <find>section-menu-special-content</find>
+      <find>section-menu-special-content-main</find>
+      <find>section-menu-after-img</find>
+      <find>section-menu-in-content-right-bottom-span-one</find>
+      <find>section-menu-in-content-right-bottom-span-two</find>
+      <find>Fried Chicken</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,8 +91,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/ht.html" />
-        <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/style/style.css" />
       </list>
     </option>
   </component>
@@ -102,10 +102,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="412" />
-    <option name="y" value="41" />
-    <option name="width" value="1819" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1066" />
+    <option name="y" value="13" />
+    <option name="width" value="1529" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -142,17 +142,6 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="decoration" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="verskta" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verskta" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verskta" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verskta" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,10 +160,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\verskta\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\verskta\images\decoration" />
-      <recent name="D:\verskta\images\decoration(section-menu).png" />
       <recent name="D:\verskta\images\other" />
+      <recent name="D:\verskta\images\decoration(section-menu).png" />
       <recent name="D:\verskta\public" />
     </key>
   </component>
@@ -209,18 +201,18 @@
       <workItem from="1521835600598" duration="75000" />
       <workItem from="1521835688727" duration="145000" />
       <workItem from="1521835847276" duration="95000" />
-      <workItem from="1521835981248" duration="10079000" />
+      <workItem from="1521835981248" duration="41832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38664000" />
+    <option name="totallyTimeSpent" value="70417000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="412" y="41" width="1819" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14710836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36248684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -361,11 +353,6 @@
     <entry file="file://$PROJECT_DIR$/images/bg@4x.png" />
     <entry file="file://$PROJECT_DIR$/images/background@2x.png" />
     <entry file="file://$PROJECT_DIR$/images/background`@2x.png" />
-    <entry file="file://$PROJECT_DIR$/images/bg(section-promo).png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/bg(header).png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -400,18 +387,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="208" column="17" lean-forward="false" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/decoration/decoration(section-promo).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/decoration/decoration(section-ingredient).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/socseti(youtube).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/socseti(twitter).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/socseti(facebook).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/round-image-two(section-ingredient).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/round-image-three(section-ingredient).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/round-image-one(section-ingredient).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/big-img(section-about).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/bg-special(section-menu).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/little-img(section-promo).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/quotes.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg(section-reviews).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/other/left-img(section-reviews).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg(section-promo).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="46" column="107" lean-forward="false" selection-start-line="46" selection-start-column="107" selection-end-line="46" selection-end-column="107" />
+        <state relative-caret-position="332">
+          <caret line="312" column="113" lean-forward="false" selection-start-line="312" selection-start-column="60" selection-end-line="312" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="1120" column="0" lean-forward="true" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
