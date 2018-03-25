@@ -1,11 +1,15 @@
 body {
+    height: 100%;
+    user-select: none;
     font-family: "Calibri", sans-serif;
 }
 
 /*--------------------------------HEADER CONTENT-------------------------------*/
 
 header {
-    position: absolute;
+    position: fixed;
+    z-index: 20;
+    top: 0;
     width: 1600px;
     height: 159px;
     background-image: url("../images/bg(header).png");
@@ -53,58 +57,18 @@ header {
     text-decoration: none;
 
 }
+.header-menu > ul > li > a {
 
-.li-menu-top-1:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 3px;
-    width: 3.3%;
-    background-color: white;
+    position: relative;
 }
 
-.li-menu-top-2:hover::before {
+.header-menu > ul > li > a:hover::before {
     content: "";
     position: absolute;
     top: 0;
+    left: 0;
     height: 3px;
-    width: 3.3%;
-    background-color: white;
-}
-
-.li-menu-top-3:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 3px;
-    width: 5.9%;
-    background-color: white;
-}
-
-.li-menu-top-4:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 3px;
-    width: 3.2%;
-    background-color: white;
-}
-
-.li-menu-top-5:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 3px;
-    width: 4.5%;
-    background-color: white;
-}
-
-.li-menu-top-6:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 3px;
-    width: 7.1%;
+    width: 100%;
     background-color: white;
 }
 
@@ -132,12 +96,19 @@ header {
 
 
 
-/*-----section-promo-----*/
+main{
+    /*flex: 1 0 auto;*/
+}
 
+
+/*-----section-promo-----*/
 .main-content {
-    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
     width: 1600px;
-    margin: 0 auto;
+    margin: auto;
+    height: 100%
 }
 
 .section-promo {
@@ -190,7 +161,7 @@ header {
     opacity: 0.5;
 }
 
-.section-promo-content-buttons-book-a-table{
+.section-promo-content-buttons-promo-one{
     position: relative;
     z-index: 4;
     width: 230px;
@@ -202,7 +173,7 @@ header {
 }
 .section-promo-content-buttons-label-one{
     position: absolute;
-    top: 16px;
+    top: 18px;
     left: 50px;
     z-index: 99999;
     color: #ffffff;
@@ -211,7 +182,7 @@ header {
     font-weight: 400;
     text-transform: uppercase;
 }
-.section-promo-content-buttons-book-a-table:hover{
+.section-promo-content-buttons-promo-one:hover{
     background: black;
 }
 
@@ -226,7 +197,7 @@ header {
     opacity: 0.5;
 }
 
-.section-promo-content-buttons-see-the-menu{
+.section-promo-content-buttons-promo-two{
     position: relative;
     z-index: 4;
     width: 230px;
@@ -237,16 +208,16 @@ header {
 }
 .section-promo-content-buttons-label-two{
     position: absolute;
-    top: 16px;
+    top: 18px;
     left: 50px;
     z-index: 99999;
     color: #080808;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
 }
-.section-promo-content-buttons-see-the-menu:hover{
+.section-promo-content-buttons-promo-two:hover{
     background: white;
 }
 
@@ -270,21 +241,29 @@ header {
 
 .section-about {
     background-image: url("../images/bg(section-about).png");
-    padding-bottom: 710px;
     background-size: 100%;
+    height: 100%;
     margin-bottom: 0;
 }
 
 .section-about-content {
+    padding-top: 107px;
     width: 1200px;
-    position: relative;
     top: 107px;
-    left: 294px;
+    margin-left: 294px;
 }
 
-.section-about-content-left {
+.about-content-one{
     float: left;
 }
+
+.about-content-two{
+    position: relative;
+    top: -30px;
+    margin-left: 500px;
+}
+
+
 
 .section-about-content-label {
     text-align: center;
@@ -293,7 +272,7 @@ header {
     height: 37px;
     overflow: hidden;
     color: #cc9900;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 35px;
@@ -315,7 +294,7 @@ header {
     width: 409px;
     max-height: 121px;
     color: #4c4c4c;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -330,13 +309,7 @@ header {
     height: 221px;
 }
 
-.section-about-content-img-right-text {
-    margin-top: 60px;
-    float: left;
-    margin-left: 380px;
-    width: 621px;
-    height: 625px;
-}
+
 
 /*-----section-ingredient-----*/
 
@@ -369,7 +342,7 @@ header {
     max-width: 297px;
     max-height: 42px;
     color: #ffffff;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 35px;
     font-weight: 400;
 }
@@ -392,7 +365,7 @@ header {
     width: 409px;
     height: 111px;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -417,35 +390,40 @@ header {
 
 .section-menu {
     background-image: url("../images/bg(section-menu).png");
-    padding-bottom: 170px;
     background-size: 100%;
-    margin-bottom: 0;
+    padding-bottom: 90px    ;
 }
 
 .section-menu-content {
-    /*border: 1px red solid;*/
+    display: block;
     position: relative;
-    left: 283px;
-    top: 80px;
-    width: 1032px;
-
+    left: 193px;
+    width: 1200px;
+    height: 100%;
+    padding-top: 20px;
+}
+.section-menu-content::after{
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
 }
 
-.section-menu-content-top-left-label-span {
+.section-menu-content-label-one {
     max-width: 431px;
     padding-top: 5px;
     height: 33px;
     overflow: hidden;
     text-align: center;
     color: #cc9900;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 32px;
 }
 
 .section-menu-after-img {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .section-menu-after-img-one {
@@ -457,6 +435,13 @@ header {
 }
 
 
+.section-menu-content-one{
+    margin-left: 70px;
+    padding-top: 70px;
+    position: relative;
+    width: 431px;
+}
+
 
 .section-menu-content-img {
     margin-left: 92px;
@@ -465,30 +450,31 @@ header {
     height: 24px;
 }
 
-.section-menu-in-content-left-top-span-one {
-    right: 0;
+
+.section-menu-in-content-one-article {
+    float: left;
     width:220px;
     height: 25px;
     overflow: hidden;
     color: #c89f2d;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
 }
 
-.section-menu-in-content-left-top-span-two {
+
+
+
+.section-menu-content-one-article {
     position: relative;
-    top: -24px;
-    left: 360px;
+    left: 147px;
     height: 30px;
     max-width: 78px;
     overflow: hidden;
     color: #c89f2d;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
 }
-.section-menu-after-block {
-    margin-bottom: -25px;
-}
+
 
 .section-menu-content-hr {
     text-align: center;
@@ -504,266 +490,106 @@ header {
     max-width: 431px;
     height: 30px;
     overflow: hidden;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.section-menu-content-top-right-label-span{
-    max-width: 431px;
-    padding-top: 5px;
-    height: 33px;
-    overflow: hidden;
-    text-align: center;
-    color: #cc9900;
-    font-family: "Yeseva One";
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 32px;
-}
 
-.section-menu-in-content-right-top-span-one {
-    position: relative;
-    right: 0;
-    width:220px;
-    height: 25px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
-}
+/*special*/
 
-.section-menu-in-content-right-top-span-two {
+
+
+
+.section-menu-after-img-three-label > article{
     position: relative;
-    top: -24px;
     left: 360px;
-    height: 30px;
-    max-width: 78px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
+    width: 70px;
+    background-image: url("../images/other/bg-special(section-menu).png");
 }
 
-.section-menu-content-bottom-right-block {
-    margin-top: 40px;
-}
-
-.section-menu-content-bottom-right-label-span{
-    max-width: 431px;
-    padding-top: 5px;
-    height: 33px;
-    overflow: hidden;
+.section-menu-after-img-three-label {
     text-align: center;
-    color: #cc9900;
-    font-family: "Yeseva One";
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 32px;
+    color: white;
 }
 
-.section-menu-in-content-right-bottom-span-one{
+.section-menu-after-img-three {
+    margin-bottom: 15px;
+}
+
+
+.section-menu-after-block-three {
+    height: 100%;
+}
+
+.section-menu-in-content-one-article-three{
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
     width:220px;
     height: 25px;
     overflow: hidden;
     color: #c89f2d;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
 }
 
-.section-menu-in-content-right-bottom-span-two{
+.section-menu-after-img-three-border {
+    border: 1px #e2b53a solid;
+    position: absolute;
+    width: 429px;
+    height: 100px;
+    opacity: 0.7;
+}
+
+.section-menu-content-one-article-three {
     position: relative;
-    top: -24px;
-    left: 370px;
+    margin-top: 7px;
+    margin-left: 365px;
+    margin-bottom: 15px;
+    height: 25px;
     max-width: 78px;
-    height: 30px;
     overflow: hidden;
     color: #c89f2d;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
+
 }
 
-.section-menu-special-content {
-    position: relative;
-    left: -7px;
-    width: 440px;
+.section-menu-content-hr-three {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 400px;
+    height: 1.5px;
+    border: #c89f2d;
+    opacity: 0.3;
+    background: #c89f2d;
+    margin-top: 0;
 }
 
-.section-menu-special-small-label{
-    text-align: right;
-}
-
-.section-menu-special-small-label-right {
-    padding-top: 6px;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    background-image: url("../images/other/bg-special(section-menu).png");
-    color: #f8fafa;
-    font-family: "Lato";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.section-menu-content-text-after-hr-right-bottom{
+.section-menu-content-text-after-hr-three{
+    margin-bottom: 15px;
+    margin-left: 10px;
     max-width: 431px;
     height: 30px;
     overflow: hidden;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.section-menu-in-content-right-bottom-special-border{
-    position: absolute;
-    border: 1px #c89f2d solid;
-    width:438px;
-    height: 94px;
-    opacity: 0.4;
-}
-.section-menu-special-content-main{
-    padding-top: 5px;
-    padding-left: 7px;
-    width: 431px;
-    height: 87px;
-}
-
-.section-menu-special-content-main-section-bottom {
-    margin-top: 35px;
-}
 
 
+/*end special*/
 
-.section-menu-in-content-right-bottom-special-span-one {
-    width:220px;
-    height: 25px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
+.menu-one {
     float: left;
 }
-
-.section-menu-in-content-right-bottom-special-span-two {
-    position: relative;
-    right: 0;
-    left:144px;
-    height: 30px;
-    max-width: 78px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
-}
-
-.section-menu-content-bottom-left-block{
-    margin-top: 50px;
-}
-
-.section-menu-content-bottom-left-label-span{
-    max-width: 431px;
-    padding-top: 5px;
-    height: 33px;
-    overflow: hidden;
-    text-align: center;
-    color: #cc9900;
-    font-family: "Yeseva One";
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 32px;
-}
-
-.section-menu-in-content-left-bottom-span-one {
-    width:220px;
-    height: 25px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
-}
-
-.section-menu-in-content-left-bottom-span-two{
-    position: relative;
-    top: -24px;
-    left: 360px;
-    height: 30px;
-    max-width: 78px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
-}
-
-.section-menu-content-text-after-hr-left-bottom{
-    max-width: 431px;
-    height: 30px;
-    overflow: hidden;
-    font-family: "Lato";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.section-menu-special-small-label-left{
-    padding-top: 6px;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    background-image: url("../images/other/bg-special(section-menu).png");
-    color: #f8fafa;
-    font-family: "Lato";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.section-menu-in-content-left-bottom-special-border {
-    position: absolute;
-    border: 1px #c89f2d solid;
-    width:438px;
-    height: 94px;
-    opacity: 0.4;
-}
-
-.section-menu-in-content-left-bottom-special-span-one{
-    width:220px;
-    height: 25px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
-}
-
-.section-menu-in-content-left-bottom-special-span-two{
-    position: relative;
-    top: -24px;
-    left: 360px;
-    height: 30px;
-    max-width: 78px;
-    overflow: hidden;
-    color: #c89f2d;
-    font-family: "Yeseva One";
-    font-size: 21px;
-}
-
-.section-menu-content-main-content{
-    position: relative;
-    width: 1000px;
-}
-.section-menu-content-left-content{
-    float: left;
-    position: relative;
-    width: 431px;
-}
-.section-menu-content-right-content{
+.menu-two{
     margin-left: 650px;
-    width: 431px;
 }
-
-
 
 
 /*----Section-Background------*/
@@ -809,7 +635,7 @@ header {
     height: 40px;
     overflow: hidden;
     color: #ffffff;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 36px;
     font-weight: 400;
 }
@@ -826,7 +652,7 @@ header {
     height: 267px;
     overflow: hidden;
     color: #dde0df;
-    font-family: "Gentium Book Basic";
+    font-family: "Gentium Book Basic", sans-serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 45px;
@@ -834,7 +660,7 @@ header {
 
 .section-background-content-main-text > label > label {
     color: #ffffff;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -851,38 +677,37 @@ header {
 
 .section-reviews {
     background-image: url("../images/bg(section-reviews).png");
-    padding-bottom: 200px;
+    padding-bottom: 160px;
     background-size: 100%;
     margin-bottom: 0;
+}
+
+.section-reviews-content-main-img{
+    float: left;
+}
+
+.section-reviews-content-img{
+    float: left;
+    margin-left: 30px;
+}
+
+.section-reviews-content-img > img{
+    width: 298px;
 }
 
 .section-reviews-content {
     position: relative;
     top: 100px;
     left: 215px;
-    width: 1222px   ;
+    width: 1222px;
 }
 
 
-.section-reviews-content-img-one{
-    display: inline-block;
-    float: left;
-}
-
-.section-reviews-content-img-two{
-    margin-left: 30px;
-    display: inline-block;
-    width: 100px;
-    height: 200px;
-    float: left;
-}
 
 .section-reviews-content-box{
     text-align: center;
-    display: inline-block;
-    margin-left: 277px;
+    margin-left: 750px;
     width: 417px;
-    height: 300px;
 }
 
 .section-reviews-content-label{
@@ -891,66 +716,70 @@ header {
     height: 40px;
     overflow: hidden;
     color: #cc9900;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 40px;
 }
 
-.section-reviews-content-img {
+.section-reviews-content-imgages {
     margin-top: 15px;
 }
 
 .section-reviews-content-main-text{
     max-width: 417px;
-    height: 145px;
+    height: 165px;
     overflow: hidden;
     color: #4c4c4c;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
 .section-reviews-form {
+    border: 1px solid transparent;
     text-align: left;
     margin-top: 30px;
     width: 417px;
-    height: 200px;
+    }
+
+.section-reviews-form-colon-one{
+    float: left;
+}
+.section-reviews-form-colon-one > p > label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #c89f2d;
 }
 
-.section-reviews-form-field{
-    display: inline-block;
-    width: 100px;
-    height: 50px;
+.section-reviews-form-colon-two{
+    margin-left: 220px;
 }
-
-.section-reviews-form-field > label {
+.section-reviews-form-colon-two > p > label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #c89f2d;
+}
+.section-reviews-form-colon-two > p> label {
     max-width: 300px;
     overflow: hidden;
 }
 
 .section-reviews-form-input {
-    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
     margin-top: 5px;
-    width: 150px;
-    height: 30px;
-    font-family: "Open Sans";
+    width: 180px;
+    height: 40px;
     font-size: 16px;
     font-style: italic;
     padding-left: 10px;
     border: 1px solid transparent;
+    margin-bottom: 10px;
 }
 .section-reviews-form-input:focus{
     border: 1px #c9a131 solid;
     outline: none;
-}
-.section-reviews-form-field-out{
-    display: inline-block;
-    width: 200px;
-    height: 36px;
-    margin-left: 110px;
-
 }
 .section-reviews-form > p > label{
     margin-left: 20px;
@@ -958,7 +787,7 @@ header {
     overflow: hidden;
     height: 10px;
     color: #c9a131;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -969,7 +798,7 @@ header {
     border: 1px solid #c89f2d;
     background-color: #c89f2d;
     color: white;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -988,52 +817,50 @@ header {
 
 
 footer {
-    position: relative;
-    bottom: 0;
+    flex: 0 0 auto;
+    padding-bottom: 30px;
     background-image: url("../images/bg(footer).png");
     width: 1600px;
-    padding-bottom: 300px;
     background-size: 100%;
     margin-bottom: 0;
 }
 .section-footer{
-    height: 100%;
-
-}
-.section-footer-left-content{
-    margin-top: 60px;
-    display: inline-block;
-    margin-left: 229px;
-    width: 343px;
-    height: 209px;
-    float: left;
-
-}
-
-.section-footer-left-content-img{
-    margin-top: 21px;
+    margin-top: 61px;
     text-align: center;
 }
+
+.section-footer-one {
+    margin-left: 229px;
+    float: left;
+}
+.section-footer-two {
+    margin-left: 132px;
+    float: left;
+}
+.section-footer-three {
+    margin-left: 202px;
+    float: left;
+}
+
+
 
 .section-footer-left-content-label{
-    margin-left: 121px;
-    text-align: center;
-    width: 101px;
     height: 25px;
     color: #fefefe;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
 }
 
 .section-footer-left-content-main-text {
-    text-align: center;
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    height: 120px;
+    max-width: 400px;
 }
 
 .section-footer-left-content-main-text > label >label {
@@ -1041,87 +868,47 @@ footer {
     font-weight: 900;
 }
 
-.section-footer-middle-content{
-    margin-top: 60px;
-    float: left;
-    margin-left: 129px;
-    text-align: center;
-    display: inline-block;
-    width: 220px;
-    height: 209px;
-}
-
-.section-footer-middle-content-img{
-    width: 199px;
-    margin-top: 17px;
-    margin-left: 17px;
-}
 
 .section-footer-middle-content-label{
-    margin-left: 30px;
-    text-align: center;
-    width: 160px;
     height: 25px;
     color: #fefefe;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
 }
 
 .section-footer-middle-content-main-text {
-    margin-left: 20px;
-    width: 195px;
-    height: 41px;
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    height: 120px;
+    max-width: 300px;
+
 }
 
 .section-footer-middle-content-main-text > label > label{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 900;
 }
 
-.section-footer-right-content{
-    margin-top: 60px;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    margin-left: 202px;
-    float: left;
-
-}
-
-.section-footer-right-content-img{
-    width: 199px;
-    margin-top: 17px;
-    margin-left: 17px;
-}
-
 .section-footer-right-content-label{
-    margin-left: 30px;
-    text-align: center;
-    width: 160px;
     height: 25px;
     color: #fefefe;
-    font-family: "Yeseva One";
+    font-family: "Yeseva One", sans-serif;
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
 }
 
 .section-footer-right-content-main-text {
-    margin-left: 20px;
-    width: 200px;
-    height: 41px;
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    height: 120px;
+    max-width: 300px;
 }
-
