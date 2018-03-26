@@ -980,8 +980,10 @@ footer {
 
 }
 .sprites-one{
-    margin-left: 35px;
-    text-align: left;
+    position: relative;
+    top: 5px;
+    left: -20px;
+    text-align: center;
 }
 .sprites-one > li{
     background-image: url("../images/sprite/sprite1.png");
@@ -989,7 +991,6 @@ footer {
     display: inline-block;
     width: 27px;
     height: 21px;
-    margin-left: 13px;
 }
 .sprite-one > a{
     padding: 10px;
@@ -1006,18 +1007,27 @@ footer {
 .sprite-three > a{
     padding: 10px;
 }
+.sprite-four {
+    background-position: -90px 0;
+}
+.sprite-four > a{
+    padding: 10px;
+}
 
 .section-footer-two-content-socseti{
     list-style: none;
 }
-
+.sprites-two{
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
 .sprites-two > li {
     background-image: url("../images/sprite/sprite2.png");
     background-repeat: no-repeat;
     display: inline-block;
     width: 20px;
     height: 17px;
-    margin-left: 13px;
 }
 
 .spr-one > a{
