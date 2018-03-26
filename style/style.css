@@ -975,14 +975,19 @@ footer {
     max-height: 50px;
     overflow: hidden;
 }
+.section-footer-two-content-pay{
+    position: relative;
+    top: -10px;
+    max-width: 170px;
+    max-height: 40px;
+    overflow: hidden;
+    margin-left: 37px;
+}
 .section-footer-two-content-pay > ul{
     list-style: none;
 
 }
 .sprites-one{
-    position: relative;
-    top: 5px;
-    left: -20px;
     text-align: center;
 }
 .sprites-one > li{
@@ -991,6 +996,8 @@ footer {
     display: inline-block;
     width: 27px;
     height: 21px;
+    margin-bottom: 10px;
+
 }
 .sprite-one > a{
     padding: 10px;
@@ -1008,7 +1015,7 @@ footer {
     padding: 10px;
 }
 .sprite-four {
-    background-position: -90px 0;
+    background-position: -95px 0;
 }
 .sprite-four > a{
     padding: 10px;
@@ -1016,12 +1023,12 @@ footer {
 
 .section-footer-two-content-socseti{
     list-style: none;
-}
-.sprites-two{
     position: relative;
     top: 10px;
     left: -15px;
 }
+
+
 .sprites-two > li {
     background-image: url("../images/sprite/sprite2.png");
     background-repeat: no-repeat;
@@ -1034,14 +1041,14 @@ footer {
     padding: 10px;
  }
 .spr-two{
-    background-position: -20px 0;
+    background-position: -21px 0;
 }
 .spr-two > a{
     padding: 10px;
 }
 
 .spr-three{
-    background-position: -40px 0;
+    background-position: -43px 0;
 }
 .spr-three > a{
     padding: 10px;
