@@ -109,19 +109,20 @@ header {
 .sprites-three > li {
     background-image: url("../images/sprite/sprite3.png");
     background-repeat: no-repeat;
-
     display: inline-block;
     width: 27px;
     height: 21px;
     margin-bottom: 10px;
+    filter: none;
+}
+
+.sprites-three > li:hover {
+    filter: grayscale(100%);
+
 }
 
 .sprt-one > a{
     padding: 10px;
-    filter: none;
-}
-.sprt-one > a:hover {
-    filter: grayscale(100%);
 }
 
 .sprt-two{
@@ -1067,6 +1068,11 @@ footer {
     display: inline-block;
     width: 20px;
     height: 17px;
+    filter: none;
+}
+
+.sprites-two > li:hover {
+    filter: grayscale(100%);
 }
 
 .spr-one > a{
