@@ -90,7 +90,6 @@ header {
     background-color: white;
 }
 
-
 .header-menu-socseti{
     position: relative;
     top: 32px;
@@ -106,6 +105,7 @@ header {
     width: 100px;
     margin-left: 0;
 }
+
 .sprites-three > li {
     background-image: url("../images/sprite/sprite3.png");
     background-repeat: no-repeat;
@@ -118,16 +118,24 @@ header {
 
 .sprt-one > a{
     padding: 10px;
+    filter: none;
 }
+.sprt-one > a:hover{
+    filter: grayscale(100%);
+}
+
 .sprt-two{
     background-position: -32px 0;
 }
+
 .sprt-two > a{
     padding: 10px;
 }
+
 .sprt-three{
     background-position: -63px 0;
 }
+
 .sprt-three > a{
     padding: 10px;
 }
@@ -172,8 +180,6 @@ header {
     line-height: 112px;
 }
 
-
-
 .section-promo-content-img {
     max-height: 44px;
     overflow: hidden;
@@ -207,6 +213,7 @@ header {
     cursor: pointer;
     margin-right: 30px;
 }
+
 .section-promo-content-buttons-label-one{
     position: absolute;
     top: 18px;
@@ -242,6 +249,7 @@ header {
     border: 1px #ffffff solid;
     cursor: pointer;
 }
+
 .section-promo-content-buttons-label-two{
     position: absolute;
     top: 18px;
@@ -253,13 +261,13 @@ header {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .section-promo-content-buttons-promo-two:hover{
     background: white;
 }
 
 .content-buttons-see-thee-menu {
     z-index: 2;
-
     width: 228px;
     height: 57px;
     border: 1px solid #ffffff;
@@ -299,6 +307,7 @@ header {
     top: -40px;
     margin-left: 450px;
 }
+
 .about-content-two > img{
     width: 600px;
 }
@@ -634,6 +643,7 @@ header {
     margin-left: 30px;
     float: left;
 }
+
 .menu-two{
     margin-left: 620px;
 }
@@ -717,6 +727,7 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
+
 .section-background-quotes {
     position: absolute;
     margin-left: 36px;
@@ -757,8 +768,6 @@ header {
     width: 1222px;
     padding-bottom: 120px;
 }
-
-
 
 .section-reviews-content-box{
     text-align: center;
@@ -802,11 +811,12 @@ header {
     width: 417px;
     max-height: 260px;
     overflow: hidden;
-    }
+}
 
 .section-reviews-form-colon-one{
     float: left;
 }
+
 .section-reviews-form-colon-one > p > label {
     font-size: 16px;
     font-weight: 600;
@@ -816,11 +826,13 @@ header {
 .section-reviews-form-colon-two{
     margin-left: 220px;
 }
+
 .section-reviews-form-colon-two > p > label{
     font-size: 16px;
     font-weight: 600;
     color: #c89f2d;
 }
+
 .section-reviews-form-colon-two > p> label {
     max-width: 300px;
     overflow: hidden;
@@ -838,13 +850,16 @@ header {
     margin-bottom: 10px;
 
 }
+
 p {
     margin: 0;
 }
+
 .section-reviews-form-input:focus{
     border: 1px #c9a131 solid;
     outline: none;
 }
+
 .section-reviews-form > p > label{
     margin-left: 20px;
     max-width: 41px;
@@ -866,9 +881,11 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
+
 .section-reviews-form-book-now:hover {
     background: #e2b53a;
 }
+
 .section-reviews-form-book-now:active {
     background: #846321;
 }
@@ -878,7 +895,14 @@ p {
     text-align: center;
 }
 
-/*-----FOOTER-----*/
+
+
+
+
+/*-----------------------------------------FOOTER-------------------*/
+
+
+
 
 
 footer {
@@ -910,7 +934,7 @@ footer {
     float: left;
 }
 
-.section-footer-left-content-label > label > h1{
+.section-footer-one-content-label > label > h1{
     padding-top: 20px;
     max-width: 350px;
     max-height: 25px;
@@ -925,7 +949,7 @@ footer {
     margin-bottom: 0;
 }
 
-.section-footer-left-content-main-text {
+.section-footer-one-content-main-text {
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -937,11 +961,10 @@ footer {
     overflow: hidden;
 }
 
-.section-footer-left-content-main-text > label >label {
+.section-footer-one-content-main-text > label >label {
     font-size: 18px;
     font-weight: 900;
 }
-
 
 .section-footer-content-img{
     max-width: 300px;
@@ -950,7 +973,7 @@ footer {
 
 }
 
-.section-footer-middle-content-label > label > h1 {
+.section-footer-two-content-label > label > h1 {
     padding-top: 20px;
     max-width: 300px;
     max-height: 25px;
@@ -964,7 +987,7 @@ footer {
     margin-bottom: 0;
 }
 
-.section-footer-middle-content-main-text {
+.section-footer-two-content-main-text {
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -975,6 +998,7 @@ footer {
     max-height: 50px;
     overflow: hidden;
 }
+
 .section-footer-two-content-pay{
     position: relative;
     top: -10px;
@@ -983,13 +1007,16 @@ footer {
     overflow: hidden;
     margin-left: 37px;
 }
+
 .section-footer-two-content-pay > ul{
     list-style: none;
 
 }
+
 .sprites-one{
     text-align: center;
 }
+
 .sprites-one > li{
     background-image: url("../images/sprite/sprite1.png");
     background-repeat: no-repeat;
@@ -997,26 +1024,32 @@ footer {
     width: 27px;
     height: 21px;
     margin-bottom: 10px;
-
 }
+
 .sprite-one > a{
     padding: 10px;
 }
+
 .sprite-two{
     background-position: -32px 0;
 }
+
 .sprite-two > a{
     padding: 10px;
 }
+
 .sprite-three{
     background-position: -63px 0;
 }
+
 .sprite-three > a{
     padding: 10px;
 }
+
 .sprite-four {
     background-position: -95px 0;
 }
+
 .sprite-four > a{
     padding: 10px;
 }
@@ -1027,7 +1060,6 @@ footer {
     top: 10px;
     left: -15px;
 }
-
 
 .sprites-two > li {
     background-image: url("../images/sprite/sprite2.png");
@@ -1040,9 +1072,11 @@ footer {
 .spr-one > a{
     padding: 10px;
  }
+
 .spr-two{
     background-position: -21px 0;
 }
+
 .spr-two > a{
     padding: 10px;
 }
@@ -1050,24 +1084,27 @@ footer {
 .spr-three{
     background-position: -43px 0;
 }
+
 .spr-three > a{
     padding: 10px;
 }
+
 .spr-four{
     background-position: -70px 0;
 }
+
 .spr-four > a{
     padding: 10px 10px;
 }
 
 
-.section-footer-middle-content-main-text > label > label{
+.section-footer-two-content-main-text > label > label{
     font-size: 15px;
     font-weight: 900;
 
 }
 
-.section-footer-right-content-label > label > h1{
+.section-footer-three-content-label > label > h1{
     padding-top: 20px;
     max-width: 300px;
     max-height: 25px;
@@ -1081,7 +1118,7 @@ footer {
     margin-bottom: 0;
 }
 
-.section-footer-right-content-main-text {
+.section-footer-three-content-main-text {
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
