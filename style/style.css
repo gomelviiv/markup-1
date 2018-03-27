@@ -9,15 +9,15 @@ body {
 
 .wrapper {
     z-index: 2;
-    min-height: calc(100vh - 100px);
     flex-direction: column;
     width: 1600px;
     margin: auto;
-    height: 100%;
     background-image: url("../images/pattern/pattern1.png");
 
 }
-
+.content {
+    min-height: calc(100vh - 270px);
+}
 /*--------------------------------HEADER CONTENT-------------------------------*/
 
 header {
@@ -120,7 +120,7 @@ header {
     padding: 10px;
     filter: none;
 }
-.sprt-one > a:hover{
+.sprt-one > a:hover {
     filter: grayscale(100%);
 }
 
