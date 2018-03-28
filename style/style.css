@@ -179,13 +179,13 @@ header {
     text-align: center;
 }
 
-.section-promo-content-label {
-    height: 370px;
+.section-promo-content-label > h1{
+    width: 960px;
     opacity: 0.92;
     text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
     color: #ffffff;
     font-family: "Yeseva One",sans-serif !important;
-    font-size: 100px;
+    font-size: 85px;
     letter-spacing: 2px;
     font-weight: 100;
     overflow: hidden;
@@ -193,14 +193,17 @@ header {
 }
 
 .section-promo-content-img {
+    position: relative;
+    top: -110px;
     max-height: 44px;
     overflow: hidden;
 }
 
 .section-promo-content-buttons {
+    position: relative;
+    top: -100px;
     max-height: 60px;
     overflow: hidden;
-    margin-top: 30px;
 }
 
 .promo-buttons-fon-one {
